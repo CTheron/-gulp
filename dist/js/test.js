@@ -1,0 +1,1 @@
+"use strict";var _api=require("./api"),_api2=_interopRequireDefault(_api);function _interopRequireDefault(e){return e&&e.__esModule?e:{default:e}}_api2.default.getlivestreamUrl().then(function(e){console.log(e)}),_api2.default.postlivestreamUrl(params).then(function(e){console.log(e)});
